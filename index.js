@@ -9,7 +9,6 @@ const port = 2756;
 
 
 app.post('/api/SaveRequest', (req, res) => {
-    console.log(req.body);
     try {
         const funData = req.body;
         const saveddata = Fun.create(funData);
