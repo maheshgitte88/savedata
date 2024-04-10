@@ -12,7 +12,7 @@ const Fun = sequelize.define('Fun', {
   },
   FirstName: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
   },
   MobileNumber: {
     type: DataTypes.STRING(20),
@@ -20,61 +20,61 @@ const Fun = sequelize.define('Fun', {
   },
   Email: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
   },
   City: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
     defaultValue: "Not Known",
   },
   State: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
   },
   Country: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
     defaultValue: "India",
   },
   Course: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
     defaultValue: "Not Known",
   },
   Textb1: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
   },
   Center: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
   },
   LeadSource: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
     defaultValue: "Paid - Google (DS)",
   },
   LeadName: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
     defaultValue: "admission-mitsde",
   },
   LeadType: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
     defaultValue: "Online",
   },
   Field1: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
   },
   Leadchannel: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
   },
   leadcampaign: {
     type: DataTypes.STRING(255),
-    allowNull: false,
+    allowNull: true,
   }
 });
 
