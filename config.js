@@ -1,8 +1,8 @@
 const { Sequelize } = require("sequelize");
 
 
-const sequelize = new Sequelize('MYTMS', 'dbmasteruser', 'Siw]hw+|4S6M(oUiA,zO[gcDL+,XrCWY', {
-    host: 'ls-c3a229987345b69dbc12ce79dcf62d176ce228da.c3my0wgwwneq.ap-south-1.rds.amazonaws.com',
+const sequelize = new Sequelize('TestingTMS', 'dbmasteruser', '%hy3])k$<${G:rY0[k:]>QcOZ;JUvK-C', {
+    host: 'ls-9ebc19b44f881f32b698f79e8b61368e3f5686a9.cxw76sd6irpv.ap-south-1.rds.amazonaws.com',
     dialect: 'mysql',
 });
 
